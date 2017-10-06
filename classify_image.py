@@ -71,7 +71,6 @@ def main():
         print "Usage: classify_image.py <image path>"
         exit()
 
-    #net = train.build_nnet()
     net = train.build_nnet()
 
     net.load_weights("net_weights.h5")
